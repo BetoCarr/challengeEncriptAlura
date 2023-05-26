@@ -247,28 +247,39 @@ body {
     text-overflow: clip;
 }
 @media (max-width: 1024px) {
+    #contenedor-logo {
+        left: 1em;
+        top: 1em;
+        width: 11%;
+        height: 3em;
+        
+    }
     #contenedor-mensaje-usuario {
         width: 75%;
+        top: 10%;
     }
     #contenedor-advertencia-minusculas {
         top: 45%;
         width: 70%;
+        margin: auto;
     }
     .advertencia-minusculas {
-        font-size: 1.2em;
+        font-size: 0.7em;
     }
     #container-botones {
         width: 75%;
-        top: 55%;
+        top: 60%;
+        margin: auto;
     }
     #contenedor-mensaje-procesado {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 75%;
-        top: 65%;
+        width: 77%;
+        top: 77%;
         left: 15%;
         height: 20%;
+        margin: auto;
     }
     .mensaje-procesado {
         overflow: auto;
@@ -277,18 +288,28 @@ body {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 0.7em;
         line-height: 100%;
         color: #495057;
     }
     #boton-copiar {
         position: absolute;
-        width: 75%;
+        height: 25%;
+        width: 50%;
         top: 70%;
     }
     .muñeco {
         left: 30%;
         width: 30%;
+    }
+    #mensajes-predeterminados {
+        top: 54%;
+    }
+    .primer-parrafo {
+        font-size: 0.7em;
+    }
+    .segundo-parrafo {
+        font-size: 0.7em;
     }
 }
 @media (max-width: 530px) {
@@ -299,32 +320,44 @@ body {
         padding: 0;
         gap: 2.5em;
         position: absolute;
-        width: 30%;
+        width: 15%;
         height: 3em;
-        left: 1.4em;
-        top: 2.5em;
+        left: 1em;
+        top: 1em;
+    }
+    #contenedor-advertencia-minusculas {
+        top: 45%;
+        width: 70%;
+        margin: auto;
+    }
+    .advertencia-minusculas {
+        font-size: 0.7em;
     }
     #container-botones {
         flex-wrap: wrap;
         width: 75%;
-        height: 8em;
+        height:8em;
         top: 55%;
     }
     .boton-encriptar {
         width: 100%;
-        height: 50%;
+        height: 35%;
+        padding: 0;
+        margin: 0;
     }
     .boton-desencriptar {
         width: 100%;
-        height: 50%;
+        height: 35%;
+        padding: 0;
+        margin: 0;
     }
     #contenedor-mensaje-procesado {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 75%;
-        top: 70%;
+        top: 79%;
         left: 15%;
-        height: 20%;
+        height: 18%;
     }
 }
